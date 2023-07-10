@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    margin-bottom: 0;
+    border: 0px None;
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 5px 3px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 500;
+}
+.banner{
+    display: flex;
+    background-color: #f8dee4;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: None;
+    height: 300px;
+}
+
+
+.profile-picture{
+    width: 235px;
+}
+
+.banner-greeting{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.banner-title{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
