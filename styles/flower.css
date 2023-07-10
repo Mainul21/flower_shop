@@ -45,3 +45,40 @@ header{
     flex-direction: column;
     flex-shrink: 0;
 }
+span{
+    color: #f8647d;
+}
+.sale{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 100px 30px 100px;
+    background-color: #f7e3e8;
+    margin-top: 100px;
+}
+.sale-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.sale-des{
+    text-align: center;
+}
+.sale-picture{
+    width: 150px;
+}
+
+#sale-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self:center ;
+    padding: 5px 3px;
+    gap: 10px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 500;
+}
