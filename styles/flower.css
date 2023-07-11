@@ -83,3 +83,36 @@ span{
     font-size: 10px;
     font-weight: 500;
 }
+
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+    padding: none;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-des{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;   
+}
+
+.instagram{
+    margin-top: 100px;
+}
+
+.instagram-picture{
+    width: 200px;
+}
